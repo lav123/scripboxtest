@@ -64,10 +64,10 @@ function Home() {
      </Select>
      </FormControl>
    </div>
-   <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }} className="challenge_list">
+   <Grid container rowSpacing={1} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
       {challenge.length > 0 ? <React.Fragment>
        {challenge.map(item=>(
-        <Grid item xs={6} md={4} sm={2} key={Math.random()}>
+        <Grid item xs={6} md={3} sm={6} key={Math.random()}>
         <Card id="challenge_card">
         <CardHeader
          action={
