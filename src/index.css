@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+.nav_title{
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+  font-size: large;
+}
+.savebutton{
+  display: flex;
+  justify-content: flex-end;
+}
+.challenge_list{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.1rem;
+}
+.cardaction{
+  display: flex;
+  justify-content: space-between;
+}
+.createdChallenge{
+  font-size: 10px;
+}
+.sorting_challenge{
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.2rem;
+}
+.css-nrdprl-MuiTypography-root{
+  font-size: 0.75rem !important;
+}
+.text{
+  display: inline;
+  width: 100%;
+}
+  
+.read-or-hide{
+  color: #0d6efd;
+  cursor: pointer;
+}
+
